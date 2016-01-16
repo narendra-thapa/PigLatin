@@ -11,7 +11,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSString *testString = @"Koola Choopse hoho";
+        NSString *testString = @"Koola Choopse hoho s pao";
         NSString *newString = [testString stringByPigLatinization];
         NSLog(@"%@", newString);
     }
