@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+Tokenization.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSString *testString = @"Koola Choopse hoho";
+        NSString *newString = [testString stringByPigLatinization];
+        NSLog(@"%@", newString);
     }
     return 0;
 }

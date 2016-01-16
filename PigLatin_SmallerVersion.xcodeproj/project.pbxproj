@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		482B850A1C49C4E300611EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482B85091C49C4E300611EA0 /* main.m */; };
+		482B85121C49C58D00611EA0 /* NSString+Tokenization.m in Sources */ = {isa = PBXBuildFile; fileRef = 482B85111C49C58D00611EA0 /* NSString+Tokenization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		482B85061C49C4E300611EA0 /* PigLatin_SmallerVersion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PigLatin_SmallerVersion; sourceTree = BUILT_PRODUCTS_DIR; };
 		482B85091C49C4E300611EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		482B85101C49C58D00611EA0 /* NSString+Tokenization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tokenization.h"; sourceTree = "<group>"; };
+		482B85111C49C58D00611EA0 /* NSString+Tokenization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tokenization.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				482B85091C49C4E300611EA0 /* main.m */,
+				482B85101C49C58D00611EA0 /* NSString+Tokenization.h */,
+				482B85111C49C58D00611EA0 /* NSString+Tokenization.m */,
 			);
 			path = PigLatin_SmallerVersion;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482B85121C49C58D00611EA0 /* NSString+Tokenization.m in Sources */,
 				482B850A1C49C4E300611EA0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
